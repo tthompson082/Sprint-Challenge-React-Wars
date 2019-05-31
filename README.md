@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a component library built by the team at Facebook. It tries to solve the problem of DOM manipulation. Manipulating the DOM can be taxing on the performance of pages as they load, and this problem becomes worse with constantly changing data. React JS solves this by using the virtual DOM. This allows for much better performance versus traditional DOM manipulation.
+
 - [ ] What does it mean to _think_ in react?
+
+Thinking in React is thinking in components. React is a component library, and as such building an app with React starts by breaking down every part of the app into its components. These components are then built and assembled to build out the app.
 
 - [ ] Describe state.
 
+State is essentially data. It is data that is stored by the app. This data can be passed around inside the app by using props. State is technically mutable, but it is treated as though it is immutable and never directly changed.
+
 - [ ] Describe props.
+
+Props are data that is being passed between components in the app. Props are read only so the data they contain cannot be directly changed by them.
 
 ## Project Set Up
 
