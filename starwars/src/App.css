@@ -8,13 +8,13 @@
 }
 /* write your parent styles in here for your App.js */
 
-.char-info {
+.character-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.char-info .character {
+.character-container .character {
   width: 40%;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 2.5%;
@@ -23,7 +23,7 @@
   box-shadow: 5px 5px 5px rgba(0,0,0, 0.7);
 }
 
-.char-info .character .name {
+.character-container .character .name {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
   font-size: 2rem;
@@ -31,7 +31,7 @@
   border-bottom: 1px dashed #443e3e;
 }
 
-.char-info .character p {
+.character-container .character p {
   font-family: Cinzel;
   font-size: 1.2rem;
 }
