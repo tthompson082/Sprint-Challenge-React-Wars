@@ -20,6 +20,7 @@
   margin: 2.5%;
   border: 2px solid #443e3e;
   border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.7);
 }
 
 .char-info .character .name {
